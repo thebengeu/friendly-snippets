@@ -65,7 +65,7 @@
     },
     "function": {
         "prefix": "fu",
-        "body": ["function ${1:name}($2)", "\t${0}", "end"]
+        "body": ["function($1)", "\t$0", "end"]
     },
     "inline-function": {
         "prefix": "f=",

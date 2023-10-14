@@ -108,6 +108,10 @@
         "prefix": "p",
         "body": ["print(${0})"]
     },
+    "print-vim-inspect": {
+        "prefix": "pvi",
+        "body": ["print(vim.inspect($0))"]
+    },
     "self": {
         "prefix": "self:",
         "body": ["function self:${1:methodName}($2)", "\t$0", "end"]
